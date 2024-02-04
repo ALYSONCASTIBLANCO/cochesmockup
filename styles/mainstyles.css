@@ -1,0 +1,161 @@
+body{
+    background: #f5f7fa ;
+    margin: 0;
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+header{
+    border: 5px inset #d0dae7;
+    
+}
+
+
+header h5, footer h5{
+    margin: 0;
+    position: relative;
+    left: 5vw;
+    font-style: italic;
+
+}
+
+header button{
+    position: relative;
+    bottom: 4vh;
+}
+header button img{
+    width: 25px;
+    height: 25px;
+}
+.divheader{
+    display: inline-block;
+    padding: 10px;
+}
+.barrabusqueda{
+    position: relative;
+    bottom: 5vh;
+    width: 50vw;
+    height: 5vh;
+    font-style: italic;
+    
+}
+.icons{
+    position: relative;
+    bottom: 2vh;
+    width: 60px;
+    height: 60px;
+}
+footer{
+    background: #d0dae7;
+}
+.divfooter{
+    display: inline-block;
+    padding-inline-start: 50px;
+}
+.divfooter ul li{
+    list-style: none;
+    display: inline-flex;
+}
+.listados{
+    display: inline-flex;
+    position: relative;
+    bottom: 10vh;
+}
+
+
+.listados ul li{
+    display: block;
+    list-style: none;
+}
+.icons2{
+    width: 50px;
+    height: 50px;
+}
+section{
+    justify-content: center;
+    text-align: center;
+}
+.cars{
+    border: 20px inset  #7897b8;
+}
+h1{
+    font-size:50px;
+}
+.photos{
+    border: 5px ridge  #f5f7fa;
+    list-style: none;
+    display: inline-block;
+}
+.choosebuttons{
+    background: #577aa0;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+.choosebuttons:hover{
+    background: #446285;
+}
+.catalogo{
+    width: 15vw;
+    height: auto;
+    padding: 10px;
+}
+.catalogo:hover{
+    transform: scale(1.5);
+}
+.catalogo h3{
+    display: block;
+}
+.doublesection{
+    margin: 0;
+    display: inline-block;
+}
+.doublesection1{
+    margin: 0;
+    justify-content: flex-start;
+    display: inline-block;
+}
+.doublesection2{
+    margin: 0;
+    display: inline-block;
+    padding-inline-start: 8vw;
+}
+.mainimage{
+    position: relative;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 45vw;
+    height: auto;
+    
+}
+.mainimage2{
+        position: relative;
+        margin: 0;
+        padding: 0;
+        width: 45vw;
+        height: auto;        
+}
+.choosebuttons2{
+    position: relative;
+    left: 12vw;
+    background: #577aa0;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    display: block;
+}
+.choosebuttons2:hover{
+    background: #446285;
+}
+.marcas{
+    width: 50vh;
+    height: auto;
+    display: inline-block;
+}
+.filtros{
+    display: inline-block;
+    padding: 5px;
+}

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Inicio- Coches de Occidente</title>
+        <meta name="viewport" content="width-device-width"/>
+        <link rel="stylesheet" href="../styles/mainstyles.css"/>
+        <link rel="icon" type="image/png" href="../public/cochesimg.webp"/>
+    </head>
+    <body>
+        <header>
+            <div class="divheader">
+                <a href="../index.html"><img title="Coches logo" alt="Coches de Occidente logo" src="../public/cochesimg.webp"/></a>
+                <h5>Coches de Occidente</h5> 
+            </div>
+            <div class="divheader">
+                <input class="barrabusqueda" type="text" placeholder="Ingrese el tipo de repuesto que busca"/>
+                <button >
+                    <img src="../public/search.png" alt=""/>
+                </button>
+            </div>
+            <div class="divheader">
+                <img class="icons" title="Contact" alt='contact' src="../public/whatsapp.webp"/>
+                <img class="icons" title="My Account" alt='My Account' src="../public/user.png"/>
+                <a href="carrito.html"><img class="icons" title="My Basket" alt='My Basket' src="../public/shopping.webp"/></a>
+            </div>
+        </header>
+        <main>
+            <section>
+                <h1>Catalogo de carros</h1>
+                <h2>Consulte el auto que desea con los filtros</h2>
+            </section>
+            <section>
+                <div class="filtros">
+                    <datalist id="Seccionmarcas">
+                        <option value="Chevrolet"></option>
+                        <option value="Renault"></option>
+                        <option value="FIAT"></option>
+                        <option value="Toyota"></option>
+                        <option value="Nissan"></option>
+                        <option value="Otros"></option>
+                    </datalist>
+                    <label>Seleccione la marca
+                        <input list="Seccionmarcas" name="Seccionmarcas"/>
+                    </label>
+                </div>
+                <div class="filtros">
+                    <datalist id="Seccionmodelo">
+                        <option value="2020"></option>
+                        <option value="2018"></option>
+                        <option value="2016"></option>
+                        <option value="2015"></option>
+                        <option value="Inferior a 2015"></option>
+                        <option value="Otros"></option>
+                    </datalist>
+                    <label>Seleccione el modelo
+                        <input list="Seccionmodelo" name="Seccionmarcas"/>
+                    </label>
+                </div>
+                <div class="filtros">
+                    <datalist id="Seccionusado">
+                        <option value="Usado"></option>
+                        <option value="Nuevo"></option>
+                    </datalist>
+                    <label>Seleccione si es usado o nuevo
+                        <input list="Seccionusado" name="Seccionmarcas"/>
+                    </label>
+                </div>
+                <div class="filtros">
+                    <datalist id="Revisiont">
+                        <option value="Si"></option>
+                        <option value="No"></option>
+                    </datalist>
+                    <label>Revision tecnicomecanica al dia
+                        <input list="Revisiont" name="Seccionmarcas"/>
+                    </label>
+                </div>
+                <div class="filtros">
+                    <datalist id="Seccionsoat">
+                        <option value="Si"></option>
+                        <option value="No"></option>
+                    </datalist>
+                    <label>SOAT al dia
+                        <input list="Seccionsoat" name="Seccionmarcas"/>
+                    </label>
+                </div>
+                <div class="filtros">
+                    <datalist id="Seccionprecio">
+                        <option value="10000000-20000000"></option>
+                        <option value="30000000-40000000"></option>
+                        <option value="50000000-80000000"></option>
+                        <option value="80000000-100000000"></option>
+                        <option value="Mas de 100000000"></option>
+                    </datalist>
+                    <label>Elija el rango de precios
+                        <input list="Seccionprecio" name="Seccionmarcas"/>
+                    </label>
+                </div>
+            </section>
+            <section>
+                <ul class="contact">
+                    <li class="photos">
+                    <img class="catalogo" src="../public/template.jpeg"/>
+                        <h3>Producto 1</h3>
+                        <h4>Añada una descripción.</h4>
+                        <h4>Precio: $--- COP</h4>
+                        <button class="choosebuttons" onclick="location.href='detalleauto.html'">Mas detalles</button>
+                    </li>
+                    <li class="photos">
+                        <img class="catalogo" src="../public/template.jpeg"/>
+                            <h3>Producto 2</h3>
+                            <h4>Añada una descripción.</h4>
+                            <h4>Precio: $--- COP</h4>
+                            <button class="choosebuttons" onclick="location.href='detalleauto.html'">Mas detalles</button>
+                    </li>
+                    <li class="photos">
+                        <img class="catalogo" src="../public/template.jpeg"/>
+                            <h3>Producto 3</h3>
+                            <h4>Añada una descripción.</h4>
+                            <h4>Precio: $--- COP</h4>
+                            <button class="choosebuttons" onclick="location.href='detalleauto.html'">Mas detalles</button>
+                    </li>
+                    <li class="photos">
+                        <img class="catalogo" src="../public/template.jpeg"/>
+                            <h3>Producto 4</h3>
+                            <h4>Añada una descripción.</h4>
+                            <h4>Precio: $--- COP</h4>
+                            <button class="choosebuttons" onclick="location.href='detalleauto.html'">Mas detalles</button>
+                    </li>
+                    <li class="photos">
+                        <img class="catalogo" src="../public/template.jpeg"/>
+                            <h3>Producto 5</h3>
+                            <h4>Añada una descripción.</h4>
+                            <h4>Precio: $--- COP</h4>
+                            <button class="choosebuttons" onclick="location.href='detalleauto.html'">Mas detalles</button>
+                    </li>
+                    <li class="photos">
+                        <img class="catalogo" src="../public/template.jpeg"/>
+                            <h3>Producto 6</h3>
+                            <h4>Añada una descripción.</h4>
+                            <h4>Precio: $--- COP</h4>
+                            <button class="choosebuttons" onclick="location.href='detalleauto.html'">Mas detalles</button>
+                    </li>
+                    <li class="photos">
+                        <img class="catalogo" src="../public/template.jpeg"/>
+                            <h3>Producto 7</h3>
+                            <h4>Añada una descripción.</h4>
+                            <h4>Precio: $--- COP</h4>
+                            <button class="choosebuttons" onclick="location.href='detalleauto.html'">Mas detalles</button>
+                    </li>
+                    <li class="photos">
+                        <img class="catalogo" src="../public/template.jpeg"/>
+                            <h3>Producto 8</h3>
+                            <h4>Añada una descripción.</h4>
+                            <h4>Precio: $--- COP</h4>
+                            <button class="choosebuttons" onclick="location.href='detalleauto.html'">Mas detalles</button>
+                    </li>
+                    <li class="photos">
+                        <img class="catalogo" src="../public/template.jpeg"/>
+                            <h3>Producto 9</h3>
+                            <h4>Añada una descripción.</h4>
+                            <h4>Precio: $--- COP</h4>
+                            <button class="choosebuttons" onclick="location.href='detalleauto.html'">Mas detalles</button>
+                    </li>
+                    <li class="photos">
+                        <img class="catalogo" src="../public/template.jpeg"/>
+                            <h3>Producto 10</h3>
+                            <h4>Añada una descripción.</h4>
+                            <h4>Precio: $--- COP</h4>
+                            <button class="choosebuttons" onclick="location.href='detalleauto.html'">Mas detalles</button>
+                    </li>                        
+                </ul>         
+            </section>
+        </main>
+        <footer>
+            <nav>
+                <div class="divfooter">
+                    <img title="Coches logo" alt="Coches de Occidente logo" src="../public/cochesimg.webp"/>
+                    <h5>Coches de Occidente</h5> 
+                </div>
+                <div class="listados">
+                    <ul>
+                        <h3>Sobre nosotros</h3>
+                        <li>Historia</li>
+                        <li>Nuestros clientes</li>
+                        <li>Ubiquenos</li>
+                    </ul>
+                </div>     
+                <div class="listados">
+                    <ul>
+                        <h3>Nuestros automoviles</h3>
+                        <li>Nuevos</li>
+                        <li>Usados</li>
+                        <li>Consulte nuestro catalogo</li>
+                    </ul>
+                </div>                    
+                <div class="listados">
+                    <ul>
+                        <h3>Nuestros repuestos</h3>
+                        <li>Farolas y stops</li>
+                        <li>Baterias</li>
+                        <li>Bocines</li>
+                        <li>Rines y llantas</li>
+                        <li>Transmisiones</li>
+                        <li>Otros repuestos</li>
+                    </ul>
+                </div>  
+                <div class="divfooter">
+                    <ul>
+                        <h3>Nuestras redes sociales</h3>
+                        <li><a target="_blank" href="#">
+                            <img class="icons2" alt="Facebook" title="Facebook" src="../public/Facebook_Logo_2023.png"/>
+                        </a></li>
+                        <li><a target="_blank" href="#">
+                            <img class="icons2" alt="Instagram" title="Instagram" src="../public/Instagram_icon.png.webp"/>
+                        </a></li>
+                        <li><a target="_blank" href="#">
+                            <img class="icons2" alt="Twitter" title="Twitter" src="../public/xlogo.png"/>
+                        </a></li>
+                    </ul>
+                    </div>
+            </nav>
+        </footer>
+    </body>
+</html>
