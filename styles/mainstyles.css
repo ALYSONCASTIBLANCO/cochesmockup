@@ -47,10 +47,12 @@ header button img{
 }
 footer{
     background: #d0dae7;
+    clear: both;
 }
 .divfooter{
     display: inline-block;
     padding-inline-start: 50px;
+    clear: both;
 }
 .divfooter ul li{
     list-style: none;
@@ -60,6 +62,7 @@ footer{
     display: inline-flex;
     position: relative;
     bottom: 10vh;
+    clear: both;
 }
 
 
@@ -158,4 +161,29 @@ h1{
 .filtros{
     display: inline-block;
     padding: 5px;
+}
+.detail{
+    width: 50vw;
+    height: auto;
+    border-radius: 20px;
+}
+.detailsection{
+    float: left;
+    padding: 30px;
+    
+}
+.detailsection h3{
+    font-style: italic;
+    font-weight: lighter;
+}
+.detailsection ul li{
+    list-style: none;
+}
+.preview{
+    width: 10vw;
+    height: auto;
+    border-radius: 20px;
+}
+.preview:hover{
+    transform: scale(2);
 }

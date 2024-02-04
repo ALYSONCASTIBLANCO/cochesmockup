@@ -26,7 +26,157 @@
             </div>
         </header>
         <main>
-            <h1>Catalogo de repuestos</h1>
+                <section>
+                    <h1>Catalogo de repuestos</h1>
+                    <h2>Consulte el repuesto que desea con los filtros</h2>
+                </section>
+                <section>
+                    <div class="filtros">
+                        <datalist id="Seccionmarcas">
+                            <option value="Chevrolet"></option>
+                            <option value="Renault"></option>
+                            <option value="FIAT"></option>
+                            <option value="Toyota"></option>
+                            <option value="Nissan"></option>
+                            <option value="Otros"></option>
+                        </datalist>
+                        <label>Seleccione la marca
+                            <input list="Seccionmarcas" name="Seccionmarcas"/>
+                        </label>
+                    </div>
+                    <div class="filtros">
+                        <datalist id="Seccionmodelo">
+                            <option value="2020"></option>
+                            <option value="2018"></option>
+                            <option value="2016"></option>
+                            <option value="2015"></option>
+                            <option value="Inferior a 2015"></option>
+                            <option value="Otros"></option>
+                        </datalist>
+                        <label>Seleccione el modelo
+                            <input list="Seccionmodelo" name="Seccionmodelo"/>
+                        </label>
+                    </div>
+                    <div class="filtros">
+                        <datalist id="Seccionlinea">
+                            <option value="Coupe"></option>
+                            <option value="Descapotable"></option>
+                            <option value="Familiar"></option>
+                            <option value="Otros"></option>
+                        </datalist>
+                        <label>Seleccione la línea de su vehículo
+                            <input list="Seccionlinea" name="Seccionlinea"/>
+                        </label>
+                    </div>
+                    <div class="filtros">
+                        <datalist id="motor">
+                            <option value="Seleccione motor"></option>
+                        </datalist>
+                        <label>Seleccione el tipo de motor
+                            <input list="motor" name="motor"/>
+                        </label>
+                    </div>
+                    <div class="filtros">
+                        <datalist id="categoria">
+                            <option value="Farolas y stops"></option> 
+                            <option value="Baterias"></option>
+                            <option value="Bocines"></option>
+                            <option value="Rines y llantas"></option>
+                            <option value="Transmisiones"></option> 
+                            <option value="Otros repuestos"></option>
+                            </datalist>
+                        <label>Seleccione una categoria de su repuesto
+                            <input list="categoria" name="categoria"/>
+                        </label>
+                    </div>
+                    <div class="filtros">
+                        <datalist id="Seccionprecio">
+                            <option value="8900-20000"></option>
+                            <option value="20000-50000"></option>
+                            <option value="50000-100000"></option>
+                            <option value="100000-300000"></option>
+                            <option value="Mas de 300000"></option>
+                        </datalist>
+                        <label>Elija el rango de precios
+                            <input list="Seccionprecio" name="Seccionmarcas"/>
+                        </label>
+                    </div>
+                </section>
+                <section>
+                    <ul class="contact">
+                        <li class="photos">
+                        <img class="catalogo" src="../public/template.jpeg"/>
+                            <h3>Producto 1</h3>
+                            <h4>Añada una descripción.</h4>
+                            <h4>Precio: $--- COP</h4>
+                            <button class="choosebuttons" onclick="location.href='detallerepuesto.html'">Mas detalles</button>
+                        </li>
+                        <li class="photos">
+                            <img class="catalogo" src="../public/template.jpeg"/>
+                                <h3>Producto 2</h3>
+                                <h4>Añada una descripción.</h4>
+                                <h4>Precio: $--- COP</h4>
+                                <button class="choosebuttons" onclick="location.href='detallerepuesto.html'">Mas detalles</button>
+                        </li>
+                        <li class="photos">
+                            <img class="catalogo" src="../public/template.jpeg"/>
+                                <h3>Producto 3</h3>
+                                <h4>Añada una descripción.</h4>
+                                <h4>Precio: $--- COP</h4>
+                                <button class="choosebuttons" onclick="location.href='detallerepuesto.html'">Mas detalles</button>
+                        </li>
+                        <li class="photos">
+                            <img class="catalogo" src="../public/template.jpeg"/>
+                                <h3>Producto 4</h3>
+                                <h4>Añada una descripción.</h4>
+                                <h4>Precio: $--- COP</h4>
+                                <button class="choosebuttons" onclick="location.href='detallerepuesto.html'">Mas detalles</button>
+                        </li>
+                        <li class="photos">
+                            <img class="catalogo" src="../public/template.jpeg"/>
+                                <h3>Producto 5</h3>
+                                <h4>Añada una descripción.</h4>
+                                <h4>Precio: $--- COP</h4>
+                                <button class="choosebuttons" onclick="location.href='detallerepuesto.html'">Mas detalles</button>
+                        </li>
+                        <li class="photos">
+                            <img class="catalogo" src="../public/template.jpeg"/>
+                                <h3>Producto 6</h3>
+                                <h4>Añada una descripción.</h4>
+                                <h4>Precio: $--- COP</h4>
+                                <button class="choosebuttons" onclick="location.href='detallerepuesto.html'">Mas detalles</button>
+                        </li>
+                        <li class="photos">
+                            <img class="catalogo" src="../public/template.jpeg"/>
+                                <h3>Producto 7</h3>
+                                <h4>Añada una descripción.</h4>
+                                <h4>Precio: $--- COP</h4>
+                                <button class="choosebuttons" onclick="location.href='detallerepuesto.html'">Mas detalles</button>
+                        </li>
+                        <li class="photos">
+                            <img class="catalogo" src="../public/template.jpeg"/>
+                                <h3>Producto 8</h3>
+                                <h4>Añada una descripción.</h4>
+                                <h4>Precio: $--- COP</h4>
+                                <button class="choosebuttons" onclick="location.href='detallerepuesto.html'">Mas detalles</button>
+                        </li>
+                        <li class="photos">
+                            <img class="catalogo" src="../public/template.jpeg"/>
+                                <h3>Producto 9</h3>
+                                <h4>Añada una descripción.</h4>
+                                <h4>Precio: $--- COP</h4>
+                                <button class="choosebuttons" onclick="location.href='detallerepuesto.html'">Mas detalles</button>
+                        </li>
+                        <li class="photos">
+                            <img class="catalogo" src="../public/template.jpeg"/>
+                                <h3>Producto 10</h3>
+                                <h4>Añada una descripción.</h4>
+                                <h4>Precio: $--- COP</h4>
+                                <button class="choosebuttons" onclick="location.href='detallerepuesto.html'">Mas detalles</button>
+                        </li>                        
+                    </ul>         
+                </section>
+    
         </main>
         <footer>
             <nav>
